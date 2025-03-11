@@ -1,0 +1,7 @@
+(:name           "bowtie2")
+(:repo           "taffish-org/bowtie2")
+(:author         "KaiyuanHan")
+(:version        "2.5.4")
+(:intro          "A fast and sensitive gapped read aligner.")
+(:dependencies)
+(:functions      "bowtie2")

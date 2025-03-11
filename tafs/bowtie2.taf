@@ -1,0 +1,9 @@
++TOOL:bowtie2
+ARGS
+    <else>
+        bowtie2 --help
+    <main>
+        bowtie2 ::*APP-ARGS*::
+RUN
+    <container:taf-bowtie2-v2.5.4:ghcr.io/taffish-org/bowtie2:2.5.4>
+        ::*MAIN*::
